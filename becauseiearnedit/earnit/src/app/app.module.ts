@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { WantedComponent } from './wanted/wanted.component';
 import { EarnedComponent } from './earned/earned.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,8 +15,9 @@ import { EarnedComponent } from './earned/earned.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
-  ],
+    FormsModule,
+    AppRoutingModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

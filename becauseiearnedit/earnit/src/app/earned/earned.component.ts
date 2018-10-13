@@ -15,8 +15,8 @@ export class EarnedComponent implements OnInit {
   constructor() {
     this.goals = [{
       cost: 'a',
-      description: 'b',
-      goal: 'c'
+      description: '2',
+      goal: 'd'
     }];
   }
 
