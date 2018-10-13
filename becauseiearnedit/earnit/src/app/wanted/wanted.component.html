@@ -1,0 +1,19 @@
+<div>
+  <label for="txtGoal">Goal</label>: 
+  <input id="txtGoal" type="text" [(ngModel)]="testGoal.goal"  />
+</div>
+
+<div>
+    <label for="txtCost">Cost</label>: 
+    <input id="txtCost" type="text" [(ngModel)]="testGoal.cost" />
+  </div>
+
+  <div>
+      <label for="txtGoal">Description</label>: 
+      <textarea id="txtDescription" [(ngModel)]="testGoal.description">
+      </textarea>
+    </div>
+    <div>
+        <label for="txtGoal">Commit</label>: 
+        <button id="btnCommit">OK</button>
+      </div>

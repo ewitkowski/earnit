@@ -1,0 +1,12 @@
+<div *ngIf="goals">
+  <table>
+    <tr *ngFor="let goal of goals">
+      <td>{{goal.cost}}</td>
+      <td>{{goal.description}}</td>
+      <td>{{goal.goal}}</td>
+    </tr>
+  </table>
+</div>
+<div *ngIf="!goals || goals.length == 0">
+  You haven't added any goals yet!
+</div>
