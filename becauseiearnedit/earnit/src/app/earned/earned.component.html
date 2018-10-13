@@ -1,10 +1,17 @@
 <div *ngIf="goals">
-  <table>
+  <table class="table">
+    <thead>
+      <th scope="col">Cost</th>
+      <th scope="col">Goal</th>
+      <th scope="col">Description</th>
+    </thead>
+    <tbody>
     <tr *ngFor="let goal of goals">
       <td>{{goal.cost}}</td>
       <td>{{goal.description}}</td>
       <td>{{goal.goal}}</td>
     </tr>
+  </tbody>
   </table>
 </div>
 <div *ngIf="!goals || goals.length == 0">
