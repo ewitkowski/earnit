@@ -17,7 +17,13 @@ export class EarnedComponent implements OnInit {
       cost: 'a',
       description: '2',
       goal: 'd'
-    }];
+    },
+    {
+      cost: 'b',
+      description: '3',
+      goal: 'e'
+    }
+  ];
   }
 
   ngOnInit() {
